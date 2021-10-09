@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <html lang="en">
+     <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>CSSMENU</title>
+         <style>
+             body{
+                 background-image: url("img/bg.png");
+             }
+             .headernav{
+                 height:50px;
+                 width:1280px;
+                 background:#333;
+                 margin:25px auto;
+             }
+             .headernav > ul{
+                 list-style:none;
+             }
+             .headernav > ul > li{
+                 float:left;
+             }
+             .headernav > ul > li:hover >a{
+                 background:#ff6347;
+             }
+             .headernav > ul > li >a{
+                 display:inline-block;
+                 height:12px;
+                 padding:19px;
+                 line-height:12px;
+                 color:#fff;
+                 font-family:Arial, Helvetica, sans-serif;
+                 font-size:0.8em;
+                 text-decoration:none;
+             }
+             .active{
+                 background:#ff6347;
+             }
+             .headernav > ul > li:first-child > a{
+                 line-height:-5px;
+             }
+             .ufoimg{
+                 background-image:url("img/ufo.png");
+                 background-repeat: no-repeat;
+                 background-size:15px 15px;
+                 background-position:0px 15px;
+             }
+         </style>
+    </head>
+    <body>
+        <nav class="headernav">
+            <ul>
+                <li>
+                   <a href="#" class="ufoimg">  Company Logo</a>
+                </li>
+                <li>
+                    <a href="#" class="active">Active</a>
+                </li>
+                <li>
+                    <a href="#">Drop Down <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li>
+                    <a href="#">Mega Menu <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li>
+                    <a href="#">Grid <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li>
+                    <a href="#">Tab Bar <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li>
+                    <a href="#">Images <i class="fas fa-chevron-down"></i></a>
+                </li>
+                <li>
+                    <a href="#">contact <i class="fas fa-chevron-down"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </body>
+</html>
